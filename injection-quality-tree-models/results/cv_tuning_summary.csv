@@ -1,0 +1,4 @@
+﻿model,tuned_cv_macro_f1_mean,tuned_cv_macro_f1_std,tuned_cv_accuracy_mean,tuned_cv_waste_recall_mean,best_parameters,n_candidates
+DecisionTree,0.9240625495342834,0.011101375481178507,0.9241379310344827,0.9324858757062147,"{""model__min_samples_split"": 2, ""model__min_samples_leaf"": 8, ""model__max_depth"": 12}",10
+RandomForest,0.9469458101290739,0.010879028092327506,0.9474137931034484,0.9525988700564971,"{""model__n_estimators"": 160, ""model__min_samples_leaf"": 2, ""model__max_features"": ""sqrt"", ""model__max_depth"": null}",8
+ExtraTrees,0.950178891062224,0.009268102132545721,0.9508620689655173,0.949322033898305,"{""model__n_estimators"": 250, ""model__min_samples_leaf"": 2, ""model__max_features"": 0.8, ""model__max_depth"": 16}",8
